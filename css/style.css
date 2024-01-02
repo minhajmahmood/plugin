@@ -1,0 +1,177 @@
+/*jQuery first() Method  */
+#f_filter{
+    border: 10px solid black;
+}
+#s_filter{
+    border: 10px solid rgb(0, 0, 0);
+}
+#t_filter{
+    border: 10px solid rgb(0, 0, 0);
+}
+/* change color and text */
+.color_change .color1{
+    background-color:#ff0000
+}
+.color_change .color2{
+    background-color:#00ff00
+}
+.color_change .color3{
+    background-color:#0000ff
+}
+/* jq empty */
+.text_empty{
+    height:100px;
+    width:300px;
+    border:20px solid black;
+    background-color:yellow;
+}
+/* jq remove */
+.remove_item{
+    height:100px;
+    width:300px;
+    border:1px solid black;
+    background-color:yellow;
+}
+/* Query addClass() Method  */
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .red {
+    color: red;
+  }
+/* animation box and text */
+.box_animation_text{
+    background:#d61010;
+    height:100px;
+    width:200px;
+    position:relative;
+}
+/* animation box toggle */
+.box_animation_toggle{
+  background:#60a770;
+    height:100px;
+    width:100px;
+    position:relative;  
+}
+/* animation box */
+.box_animation{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:relative;
+}
+/* side */
+.ques{
+    padding: 20px;
+    cursor: pointer;
+}
+.ans{
+    padding: 20px;
+    display: none;
+}
+/* jquery ui examples*/
+/* draggable */
+#draggable { 
+    width: 250px;
+    height: 150px;
+    padding: 0.5em;
+    background-color: aqua;
+}
+/* sortable */
+#sortable { list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    width: 60%; }
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 1.3em; 
+    padding-left: 1.5em; 
+    font-size: 0.7em; 
+    height: 18px; }
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; }
+ /*tooltip form  */
+ .tooltip_label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+  /* tooltip-fake media player */
+  .player {
+    width: 500px;
+    height: 300px;
+    border: 2px groove gray;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+  }
+  .ui-tooltip {
+    border: 1px solid white;
+    background: #111;
+    color: white;
+  }
+  .ui-menu {
+    position: absolute;
+  }
+  .set {
+    display: inline-block;
+  }
+  .notification {
+    position: absolute;
+    display: inline-block;
+    font-size: 2em;
+    padding: .5em;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.5);
+  }
+  /* color animation */
+  .toggler { width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+    #button { 
+        padding: .5em 1em; 
+        text-decoration: none; 
+    }
+    #effect { 
+        width: 240px; 
+        height: 170px; 
+        padding: 0.4em; 
+        position: relative; 
+        background: #fff; }
+    #effect h3 { 
+        margin: 0; 
+        padding: 0.4em; 
+        text-align: center; 
+    }
+    /* open on mouseover tabs */
+    #tabs_mouse{
+        background-color: #c79a9a;
+        
+        
+    }
+    /* select menu */
+    fieldset {
+        border: 0;
+      }
+      label {
+        display: block;
+        margin: 30px 0 0 0;
+      }
+      .overflow {
+        height: 200px;
+      }
+/*js plug-in  */
+.box {
+  min-height: 600px;
+  
+}

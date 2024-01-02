@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!--Meta link-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="blog">
+    <meta name="keywords" content="e-school, blog site">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="md.alamin">
+    <meta name="language" content="EN">
+    <meta name="author" content="md.alamin">
+    <!--Meta link-->
+
+    <title>Java Script and Jquery</title>
+    <!--Css link-->
+    <link rel="icon" href="images/Frame.png">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="vendor/WOW-master/css/animate.css">
+    <link rel="stylesheet" href="vendor/aos-master/css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- jQuery first() Method -->
+  <div class="container">
+    <h2>jQuery first() Method</h2>
+    <h1>Welcome to My Homepage</h1>
+    <!-- 1st item -->
+    <div id="f_filter">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    <!-- 2nd item -->
+    <div id="s_filter">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+<!-- 3rd item -->
+<div id="t_filter">
+  <p>A paragraph in another div.</p>
+  <p>Another paragraph in another div.</p>
+</div>
+  </div>
+  <hr>
+  <!-- change color and text -->
+  <div class="container">
+    <h2> change color and text</h2>
+    <div class="color_change">
+      <p class="color1">This is a paragraph.</p>
+      <p class="color2">This is a paragraph.</p>
+      <p class="color3">This is a paragraph.</p>
+    </div>
+    <button class="btn btn-danger btn-c-changer">Color Changer</button>
+  </div>
+  <hr>
+  <!-- jq empty -->
+  <div class="container">
+    <h2>jq empty</h2>
+    <div id="text_empty">
+      <h4>This is some text in the div.</h4>
+      <p>This is a paragraph in the div.</p>
+      <p>This is another paragraph in the div.</p>
+    </div>
+    <button class="btn btn-secondary btn_text_empty">Text Empty</button>
+  </div>
+  <hr>
+  <!-- jq remove-->
+  <div class="container">
+    <h2>jquery remove</h2>
+    <div id="remove_item">
+     <h4>This is some text in the div.</h4>
+      <p>This is a paragraph in the div.</p>
+      <p>This is another paragraph in the div.</p>
+    </div>
+    <br>
+    <button class="btn btn-dark btn_remove">Remove div element</button>
+  </div>
+
+
+
+  <hr>
+  <!-- jQuery addClass() Method -->
+  <div class="container">
+   <h2>jQuery addClass() Method</h2>
+    <h1 id="heading1">Heading 1</h1>
+    <h2 id="heading2">Heading 2</h2>
+    <div class="class_text_ad">This is some important text!</div><br>
+
+<button class="btn btn-warning">Add classes to elements</button>
+  </div>
+  
+  <hr>
+  <!-- append items and append lists -->
+  <div class="container">
+    <h2>append items and append lists</h2>
+    
+    <p class="ca_para">This is a paragraph.</p>
+    <ol class="ca_list">
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ol>
+    <button id="append_text">Append text</button>
+    <button id="append_list">Append list items</button>
+  </div>
+  <hr>
+  <!--jquery method chaining-->
+  <div class="container">
+    <h2>jquery method chaining</h2>
+    <button class="btn btn-warning btn_chain">Click</button>
+    <p id="chain">jQuery is fun!!</p>
+  </div>
+  <hr>
+  <!-- Jquery example -->
+  <div class="container">
+    <!--calling back  -->
+    <h2>calling back</h2>
+    <button class="btn btn-danger btn_callback">Press</button>
+    <p class="c_hidden_para">This is a paragraph with little content.</p>
+  </div>
+  <hr>
+  <!-- box animation with text  -->
+    <div class="container">
+    <h2>box animation with text</h2>
+    <button class="btn btn-dark btn-animation_text">Start Animation</button>
+    <p>Click the for tex and box animation.</p>
+    <div class="box_animation_text text-white">Love</div>
+  </div>
+  
+  <hr>
+  <!-- box animation with toggle -->
+  <div class="container">
+    <h2>Box animation toggle</h2>
+      <button class="btn btn-dark btn-animation_toggle">Start Animation</button>
+      <p>Click the button multiple times to toggle the animation.</p>
+         <div class="box_animation_toggle"></div>
+   </div>
+   <hr>
+    <!-- box animation  -->
+  <div class="container">
+ <div class="container">
+  <h2>Box animation</h2>
+    <button class="btn btn-dark btn-animation">Start Animation</button>
+    <p>By default, all HTML elements have a static position, and cannot be moved.
+       To manipulate the position, remember to first set the CSS position property
+       of the element to relative, fixed, or absolute!</p>
+       <div class="box_animation"></div>
+ </div>
+ <hr>
+  <div class="container">
+    
+    <!-- cilck button to fade in/fade out/fade toggle the text -->
+    <h2>cilck button to fade in/fade out/fade toggletext</h2>
+    <button class="btn btn-dark" id="fade_in">Fade in</button>
+    <button class="btn btn-dark" id="fade_out">Fade out</button>
+    <button class="btn btn-dark" id="fade_togg">Fade toggle</button>
+    <h3 id="fh_h3">Lorem ipsum dolor sit amet.</h3>
+    <hr>
+    <!-- cilck button to show/hide the text -->
+    <h2>cilck button to show/hide the text</h2>
+    <button class="btn btn-dark" id="hide">Hide</button>
+    <button class="btn btn-dark" id="hide">Show</button>
+    <button class="btn btn-dark" id="togg">Toggle</button>
+    <h3 id="sh_h3">Lorem ipsum dolor sit amet.</h3>
+    <hr>
+    <h2>show alert message</h2>
+    <button class="btn btn-dark" id="btn">show alert message</button>
+    <hr>
+    <!-- slide question and answer -->
+    <div class="ques bg-danger text-white" id="quest">Lorem ipsum dolor sit amet.</div>
+    <div class="ans bg-success text-white" id="answ">Lorem ipsum dolor sit amet 
+      consectetur adipisicing elit. Excepturi, temporibus.</div>
+    <hr>
+    
+    <!-- jquery ui -->
+    <div class="container">
+      <!-- draggable  -->
+      <div id="draggable">
+        <p>Drag me around</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+    <div class="container">
+      <!-- accordian -->
+      <div id="accordion">
+        <!-- item 1 -->
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <!-- item 2 -->
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+      </div>
+    </div>
+  <hr>
+  <div class="container">
+    <!-- accordian collaps -->
+    <div id="accordion_collaps">
+      <h3>accordian-example</h3>
+      <!-- item 1 -->
+      <h3>Section 1</h3>
+      <div>
+        <p>
+        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+      </div>
+      <!-- item 2 -->
+      <h3>Section 2</h3>
+      <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <form action="#">
+          <div class="mb-3">
+            <label for="c_name" class="form-label">Course Name</label>
+            <input type="text" class="form-control" id="c_name" placeholder="">
+          </div>
+          <div class="mb-3">
+            <button type="sumbit" class="btn btn-danger w-100">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Sortable -->
+  <div class="container">
+    <h3>sortable</h3>
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Tiger</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Lion</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Elephant</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Bear</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Crocodile</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Horse</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Deer</li>
+    </ul>
+
+  </div>
+  <hr>
+  <!-- date picker -->
+  <div class="container">
+    <h3>date picker</h3>
+    <p>Date: <input type="text" id="datepicker"></p>
+  </div>
+  <hr>
+  <!-- tooltip form -->
+  <div class="container">
+    <h3>tooltip form</h3>
+    <!-- form start -->
+    <form>
+      <fieldset>
+        <div>
+          <label class="tooltip_label" for="firstname">First Name</label>
+          <input id="firstname" name="firstname" title="Please provide your firstname.">
+        </div>
+        <div>
+          <label class="tooltip_label" for="lastname">Last Name</label>
+          <input id="lastname" name="lastname" title="Please provide also your lastname.">
+        </div>
+        <div>
+          <label class="tooltip_label" for="address">Address</label>
+          <input id="address" name="address" title="Your home or work address.">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <hr>
+  <!-- tooltip for fake media player. -->
+<div class="container">
+  <h3>tooltip-fake media player</h3>
+  <div class="player">Here Be Video (HTML5?)</div>
+<div class="tools">
+  <span class="set">
+    <button data-icon="ui-icon-circle-arrow-n" title="I like this">Like</button>
+    <button data-icon="ui-icon-circle-arrow-s">I dislike this</button>
+  </span>
+  <div class="set">
+      <button data-icon="ui-icon-circle-plus" title="Add to Watch Later">Add to</button>
+      <button class="menu" data-icon="ui-icon-triangle-1-s">Add to favorites or playlist</button>
+      <ul>
+        <li><div>Favorites</div></li>
+        <li><div>Funnees</div></li>
+        <li></li>
+        <li><div>New playlist...</div></li>
+      </ul>
+    </div>
+    <button title="Share this video">Share</button>
+    <button data-icon="ui-icon-alert">Flag as inappropriate</button>
+  </div>
+</div>
+<hr>
+<!-- color animation -->
+<h3>color animation</h3>
+<div class="container">
+  <div class="toggler ">
+    <div id="effect" class="ui-widget-content ui-corner-all">
+      <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+      <p>
+        Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut.
+      </p>
+    </div>
+  </div>
+   
+  <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+   
+</div>
+<hr>
+<!-- default tabs -->
+<h3>default tabs</h3>
+<div class="container">
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Nunc tincidunt</a></li>
+      <li><a href="#tabs-2">Proin dolor</a></li>
+      <li><a href="#tabs-3">Aenean lacinia</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+      <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- open on mouseover tabs -->
+<div class="container">
+  <h3>open on mouseover tabs</h3>
+  <div id="tabs_mouse">
+    <ul>
+      <li><a href="#tabs-1">Nunc tincidunt</a></li>
+      <li><a href="#tabs-2">Proin dolor</a></li>
+      <li><a href="#tabs-3">Aenean lacinia</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+      <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+    </div>
+    </div>
+  </div>
+  
+  <hr>
+  <!-- selection of menu for choice -->
+  <div class="container">
+    <h3> selection of menu for choice</h3>
+    <div class="demo">
+ 
+      <form action="#">
+       
+        <fieldset>
+          <label for="speed">Select a speed</label>
+          <select name="speed" id="speed">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+          </select>
+       
+          <label for="files">Select a file</label>
+          <select name="files" id="files">
+            <optgroup label="Scripts">
+              <option value="jquery">jQuery.js</option>
+              <option value="jqueryui">ui.jQuery.js</option>
+            </optgroup>
+            <optgroup label="Other files">
+              <option value="somefile">Some unknown file</option>
+              <option value="someotherfile">Some other file with a very long option text</option>
+            </optgroup>
+          </select>
+       
+          <label for="number">Select a number</label>
+          <select name="number" id="number">
+            <option>1</option>
+            <option selected="selected">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+          </select>
+       
+          <label for="salutation">Select a title</label>
+          <select name="salutation" id="salutation">
+            <option disabled selected>Please pick one</option>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Prof.</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+       
+      </form>
+       
+      </div>
+   </div>  
+    <hr>
+    <!-- autocomplete -->
+    
+  
+    <!-- jquery plug-in -->
+    <!-- counter-up jq-plug-in -->
+    <div class="container">
+      
+      <div class="row">
+        <!-- single item 1 -->
+        <div class="col-lg-4">
+          <div class="item text-center">
+            <h3 class="counter">1,234,567.00</h3>
+            <p>lorem ipsum</p>
+          </div>
+        </div>
+        <!-- single item 2 -->
+        <div class="col-lg-4">
+          <div class="item text-center">
+            <h3 class="counter">1,234,567.00</h3>
+            <p>lorem ipsum</p>
+          </div>
+        </div>
+        <!-- single item 3 -->
+        <div class="col-lg-4">
+          <div class="item text-center">
+            <h3 class="counter">1,234,567.00</h3>
+            <p>lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Js Plug-ins -->
+  <!-- Data wow slide down -->
+  
+  <section>
+    <div class="container">
+
+    </div>
+  </section>
+  <section class="box bg-danger wow slideInDown" data-wow-duration="2s" data-wow-delay="1s"></section>
+  <section class="box bg-success wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s"></section>
+  <section class="box bg-danger wow slideInUp" data-wow-duration="2s" data-wow-delay="1s"></section>
+  <!-- AOS js plug-in -->
+  <!-- 1st row aos -->
+  <div class="container mt-5">
+    <div data-aos="fade-in">
+      <div class="row">
+        <!-- item 1 -->
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/picture1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/picture1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/picture1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 2nd row aos -->
+<div class="container mt-5">
+  <div data-aos="fade-in">
+    <div class="row">
+      <!-- item 1 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 3rd row aos -->
+<div class="container mt-5">
+  <div data-aos="fade-in">
+    <div class="row">
+      <!-- item 1 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="col-lg-4">
+        <div class="img" data-aos="zoom-in">
+          <img src="images/picture1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- script start -->
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="vendor/Counter-Up/js/jquery.counterup.min.js"></script>
+      <script src="vendor/WOW-master/js/wow.min.js"></script>
+      <script src="vendor/aos-master/js/aos.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script> 
+      <script src="js/script.js"></script>
+     <!-- script end -->
+    
+</body>
+
+</html>
